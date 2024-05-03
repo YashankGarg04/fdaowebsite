@@ -3,6 +3,7 @@
 .header {
   background-image: linear-gradient(to right, #f72 0%, #ff6200 44%, #d8c2c2 88%, #ebebeb 117%);
   font-family: Lato;
+  margin-top: -2000px;
   font-size: 50px;
   font-weight: normal;
   font-stretch: normal;
@@ -20,6 +21,7 @@
   height: auto; /* Allow height to adjust based on content */
   margin: 16px 10px; /* Adjust margin for smaller screens */
   font-family: AbyssinicaSIL;
+  margin-top: -2000px;
   font-size: 24px; /* Adjust font size for smaller screens */
   font-weight: normal;
   font-stretch: normal;
@@ -28,6 +30,9 @@
   letter-spacing: 0.5px; /* Adjust letter spacing for better readability */
   text-align: center; /* Center text for smaller screens */
   color: #fff;
+}
+.button {
+  margin-top: -3000px;
 }
 
 /* Media query for smaller screens */
@@ -45,6 +50,7 @@
   width: 178px;
   height: 70px;
   display: flex;
+  margin-top: -3400px;
   flex-direction: row;
   justify-content: center;
   align-items: center;

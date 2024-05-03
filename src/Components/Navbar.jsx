@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import gifLogo from "./robotgif/aa_f.gif";
 import staticLogo from "./robotgif/aa.jpg";
+import "./Navbar.css";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

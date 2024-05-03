@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import ActivateWithActivator from './Components/Heading';
 import './Components/App.css';
 import Button from './Components/Button';
+import Card from './Cards';
 
 const App = () => {
   const handleClick = () => {
@@ -14,6 +15,7 @@ const App = () => {
   const Home = () => {
     return (
       <>
+      <div>
         <Navbar />
         <GradientBackground />
         <div className="absolute inset-0 flex justify-center items-center">
@@ -22,6 +24,8 @@ const App = () => {
         <div className="absolute inset-0 flex justify-center items-center">
           <Button onClick={handleClick}>Launch App</Button>
         </div>
+        </div>
+        <Card />
       </>
     );
   };
